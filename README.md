@@ -2,7 +2,7 @@
 
 ## 1 To Clone or download this project simply run:
 
-git clone - https://github.com/
+git clone - https://github.com/ancutadaniel/dapp_yield.git
 
 ### 2. cd into the directory and Install the necessary packages
 
