@@ -4,7 +4,7 @@ import bank from '../bank.png';
 const Navbar = ({ account }) => {
   return (
     <nav
-      className='navbar navbar-dark fixed-top shadow p-0'
+      className='navbar navbar-dark  shadow p-0'
       style={{ backgroundColor: 'indigo', height: '50px' }}
     >
       <a
@@ -19,7 +19,7 @@ const Navbar = ({ account }) => {
           className='d-inline-block align-top rounded-circle'
           alt='bank'
         />
-        &nbsp; DAPP Yield Staking (Dbank)
+        &nbsp; Yield Staking (Dbank)
       </a>
       <ul className='navbar-nav px-3'>
         <li className='text-nowrap d-none nav-item d-sm-none d-sm-block'>

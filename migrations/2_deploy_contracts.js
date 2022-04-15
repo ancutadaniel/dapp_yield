@@ -16,6 +16,6 @@ module.exports = async function (deployer, networks, accounts) {
   // transfer the reward token to the Dbank inside the RewardCoin contract
   await rewardCoin.transfer(dbank.address, '1000000000000000000000000');
 
-  // distribute 1000 loadingCoins tokens to new investors & we select second account ganache
+  // distribute 100 loadingCoins tokens to new investors & we select second account ganache
   await loadingCoin.transfer(accounts[1], '100000000000000000000');
 };

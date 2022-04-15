@@ -7,7 +7,7 @@ module.exports = {
     },
   },
   contracts_directory: './src/contracts/',
-  contracts_build_directory: './build/contracts',
+  contracts_build_directory: './src/build/contracts',
   compilers: {
     solc: {
       version: '^0.8.6',
